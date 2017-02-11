@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D166CDA1C71F457004A99E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D166CD81C71F457004A99E0 /* Main.storyboard */; };
+		0D166CDC1C71F457004A99E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D166CDB1C71F457004A99E0 /* Assets.xcassets */; };
+		0D166CDF1C71F457004A99E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D166CDD1C71F457004A99E0 /* LaunchScreen.storyboard */; };
+		0D792E6A1D0B8470001A829E /* KontaktSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D792E691D0B8470001A829E /* KontaktSDK.framework */; };
+		0D792E6C1D0B8475001A829E /* KontaktSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D792E691D0B8470001A829E /* KontaktSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		372FA8AA1E4ADCE6000FA921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D166CD41C71F457004A99E0 /* AppDelegate.swift */; };
+		372FA8AB1E4ADD0A000FA921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D166CD61C71F457004A99E0 /* ViewController.swift */; };
+		37F215DE1E4D77AF008356F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D166CE01C71F457004A99E0 /* Info.plist */; };
+		37F215E51E4DACEC008356F2 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F215DF1E4DACEC008356F2 /* pic1.png */; };
+		37F215E61E4DACEC008356F2 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F215E01E4DACEC008356F2 /* pic2.png */; };
+		37F215E71E4DACEC008356F2 /* pic3.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F215E11E4DACEC008356F2 /* pic3.png */; };
+		37F215E81E4DACEC008356F2 /* pic4.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F215E21E4DACEC008356F2 /* pic4.png */; };
+		37F215E91E4DACEC008356F2 /* pic5.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F215E31E4DACEC008356F2 /* pic5.png */; };
+		37F215EA1E4DACEC008356F2 /* pic6.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F215E41E4DACEC008356F2 /* pic6.png */; };
+		37F215ED1E4DACF8008356F2 /* tin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37F215EB1E4DACF8008356F2 /* tin.mp3 */; };
+		37F215EE1E4DACF8008356F2 /* nature1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37F215EC1E4DACF8008356F2 /* nature1.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D166CEA1C71F6F5004A99E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0D792E6C1D0B8475001A829E /* KontaktSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D166CD11C71F457004A99E0 /* SDK Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK Workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D166CD41C71F457004A99E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D166CD61C71F457004A99E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D166CD91C71F457004A99E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D166CDB1C71F457004A99E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D166CDE1C71F457004A99E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D166CE01C71F457004A99E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D792E691D0B8470001A829E /* KontaktSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KontaktSDK.framework; path = ../../SDK/KontaktSDK/iOS/KontaktSDK.framework; sourceTree = "<group>"; };
+		372FA8981E486078000FA921 /* SDK Workshop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SDK Workshop.entitlements"; sourceTree = "<group>"; };
+		37F215DF1E4DACEC008356F2 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic1.png; path = "../../Beacons IMG/pic1.png"; sourceTree = "<group>"; };
+		37F215E01E4DACEC008356F2 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic2.png; path = "../../Beacons IMG/pic2.png"; sourceTree = "<group>"; };
+		37F215E11E4DACEC008356F2 /* pic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic3.png; path = "../../Beacons IMG/pic3.png"; sourceTree = "<group>"; };
+		37F215E21E4DACEC008356F2 /* pic4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic4.png; path = "../../Beacons IMG/pic4.png"; sourceTree = "<group>"; };
+		37F215E31E4DACEC008356F2 /* pic5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic5.png; path = "../../Beacons IMG/pic5.png"; sourceTree = "<group>"; };
+		37F215E41E4DACEC008356F2 /* pic6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic6.png; path = "../../Beacons IMG/pic6.png"; sourceTree = "<group>"; };
+		37F215EB1E4DACF8008356F2 /* tin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tin.mp3; path = ../../tin.mp3; sourceTree = "<group>"; };
+		37F215EC1E4DACF8008356F2 /* nature1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = nature1.mp4; path = ../../nature1.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D166CCE1C71F457004A99E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D792E6A1D0B8470001A829E /* KontaktSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D166CC81C71F457004A99E0 = {
+			isa = PBXGroup;
+			children = (
+				0D166CD31C71F457004A99E0 /* SDK Workshop */,
+				0D166CE61C71F6DC004A99E0 /* Frameworks */,
+				0D166CD21C71F457004A99E0 /* Products */,
+				37F215DF1E4DACEC008356F2 /* pic1.png */,
+				37F215E01E4DACEC008356F2 /* pic2.png */,
+				37F215E11E4DACEC008356F2 /* pic3.png */,
+				37F215E21E4DACEC008356F2 /* pic4.png */,
+				37F215E31E4DACEC008356F2 /* pic5.png */,
+				37F215E41E4DACEC008356F2 /* pic6.png */,
+				37F215EB1E4DACF8008356F2 /* tin.mp3 */,
+				37F215EC1E4DACF8008356F2 /* nature1.mp4 */,
+			);
+			sourceTree = "<group>";
+		};
+		0D166CD21C71F457004A99E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D166CD11C71F457004A99E0 /* SDK Workshop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D166CD31C71F457004A99E0 /* SDK Workshop */ = {
+			isa = PBXGroup;
+			children = (
+				372FA8981E486078000FA921 /* SDK Workshop.entitlements */,
+				0D166CD41C71F457004A99E0 /* AppDelegate.swift */,
+				0D166CD61C71F457004A99E0 /* ViewController.swift */,
+				0D166CD81C71F457004A99E0 /* Main.storyboard */,
+				0D166CDB1C71F457004A99E0 /* Assets.xcassets */,
+				0D166CDD1C71F457004A99E0 /* LaunchScreen.storyboard */,
+				0D166CE01C71F457004A99E0 /* Info.plist */,
+			);
+			path = "SDK Workshop";
+			sourceTree = "<group>";
+		};
+		0D166CE61C71F6DC004A99E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D792E691D0B8470001A829E /* KontaktSDK.framework */,
+			);
+			name = Frameworks;
+			path = "SDK Workshop";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D166CD01C71F457004A99E0 /* SDK Workshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D166CE31C71F457004A99E0 /* Build configuration list for PBXNativeTarget "SDK Workshop" */;
+			buildPhases = (
+				0D166CCD1C71F457004A99E0 /* Sources */,
+				0D166CCE1C71F457004A99E0 /* Frameworks */,
+				0D166CCF1C71F457004A99E0 /* Resources */,
+				0D166CEA1C71F6F5004A99E0 /* Embed Frameworks */,
+				0D166CEB1C71F708004A99E0 /* Strip Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDK Workshop";
+			productName = "SDK Workshop";
+			productReference = 0D166CD11C71F457004A99E0 /* SDK Workshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D166CC91C71F457004A99E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Marek Serafin";
+				TargetAttributes = {
+					0D166CD01C71F457004A99E0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = P8PA92SN8F;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0D166CCC1C71F457004A99E0 /* Build configuration list for PBXProject "SDK Workshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D166CC81C71F457004A99E0;
+			productRefGroup = 0D166CD21C71F457004A99E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D166CD01C71F457004A99E0 /* SDK Workshop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D166CCF1C71F457004A99E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F215E81E4DACEC008356F2 /* pic4.png in Resources */,
+				37F215EE1E4DACF8008356F2 /* nature1.mp4 in Resources */,
+				37F215ED1E4DACF8008356F2 /* tin.mp3 in Resources */,
+				37F215E61E4DACEC008356F2 /* pic2.png in Resources */,
+				37F215E71E4DACEC008356F2 /* pic3.png in Resources */,
+				37F215EA1E4DACEC008356F2 /* pic6.png in Resources */,
+				37F215DE1E4D77AF008356F2 /* Info.plist in Resources */,
+				0D166CDF1C71F457004A99E0 /* LaunchScreen.storyboard in Resources */,
+				0D166CDC1C71F457004A99E0 /* Assets.xcassets in Resources */,
+				37F215E51E4DACEC008356F2 /* pic1.png in Resources */,
+				0D166CDA1C71F457004A99E0 /* Main.storyboard in Resources */,
+				37F215E91E4DACEC008356F2 /* pic5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D166CEB1C71F708004A99E0 /* Strip Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Strip Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/KontaktSDK.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D166CCD1C71F457004A99E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372FA8AB1E4ADD0A000FA921 /* ViewController.swift in Sources */,
+				372FA8AA1E4ADCE6000FA921 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D166CD81C71F457004A99E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D166CD91C71F457004A99E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D166CDD1C71F457004A99E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D166CDE1C71F457004A99E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D166CE11C71F457004A99E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D166CE21C71F457004A99E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D166CE41C71F457004A99E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8PA92SN8F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)\"",
+					"\"$(PROJECT_DIR)/../SDK/KontaktSDK\"/**",
+				);
+				INFOPLIST_FILE = "SDK Workshop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wasmiah.myStore.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		0D166CE51C71F457004A99E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8PA92SN8F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)\"",
+					"\"$(PROJECT_DIR)/../SDK/KontaktSDK\"/**",
+				);
+				INFOPLIST_FILE = "SDK Workshop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wasmiah.myStore.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D166CCC1C71F457004A99E0 /* Build configuration list for PBXProject "SDK Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D166CE11C71F457004A99E0 /* Debug */,
+				0D166CE21C71F457004A99E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D166CE31C71F457004A99E0 /* Build configuration list for PBXNativeTarget "SDK Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D166CE41C71F457004A99E0 /* Debug */,
+				0D166CE51C71F457004A99E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D166CC91C71F457004A99E0 /* Project object */;
+}

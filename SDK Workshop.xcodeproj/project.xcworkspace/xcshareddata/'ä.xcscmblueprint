@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "67DDA4ED9BEA2D86F0EBE4ACCD9CFFC9CFE7375B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "67DDA4ED9BEA2D86F0EBE4ACCD9CFFC9CFE7375B" : 0,
+    "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A0351EFF-2BCB-4C99-B20D-DF0A781310E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "67DDA4ED9BEA2D86F0EBE4ACCD9CFFC9CFE7375B" : "kontakt-ios-sdk-workshop\/",
+    "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B" : "kontakt-ios-sdk-workshop\/SDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "'ä",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Part 1\/'ä.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kontaktio\/kontakt-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kontaktio\/kontakt-ios-sdk-workshop.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67DDA4ED9BEA2D86F0EBE4ACCD9CFFC9CFE7375B"
+    }
+  ]
+}

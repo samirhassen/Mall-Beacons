@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SDK Workshop/ViewController.swift"
+            timestampString = "508397803.398035"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDK_Workshop.ViewController.imgView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "SDK Workshop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samir/Desktop/kontakt-ios-sdk-workshop/Part%201/SDK%20Workshop/ViewController.swift"
+                  timestampString = "508228336.022134"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDK_Workshop.ViewController.imgView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "SDK Workshop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samir/Desktop/kontakt-ios-sdk-workshop/Part%201/SDK%20Workshop/ViewController.swift"
+                  timestampString = "508228336.053276"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDK_Workshop.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; SDK_Workshop.ViewController"
+                  moduleName = "SDK Workshop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samir/Desktop/kontakt-ios-sdk-workshop/Part%201/SDK%20Workshop/ViewController.swift"
+                  timestampString = "508228336.056434"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDK_Workshop.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SDK_Workshop.ViewController&gt;"
+                  moduleName = "SDK Workshop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samir/Desktop/kontakt-ios-sdk-workshop/Part%201/SDK%20Workshop/ViewController.swift"
+                  timestampString = "508228336.059869"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
