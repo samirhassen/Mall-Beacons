@@ -83,7 +83,6 @@ class ViewController: UIViewController,CBPeripheralManagerDelegate {
         beaconManager.startRangingBeaconsInRegion(region)
         beaconManager.startMonitoringForRegion(region)
         beaconManager.requestStateForRegion(region)
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -150,18 +149,19 @@ extension ViewController: KTKBeaconManagerDelegate {
             print("Closest Beacon is M: \(closestBeacon.major), m: \(closestBeacon.minor) ~ \(closestBeacon.accuracy) meters away")
             
             switch closestBeacon.major {
-            case 23932: //DgrG
+            case 42285: //DgrG 23932
                 self.myImg.image = UIImage(named: "pic1")
                 self.view.backgroundColor = UIColor.blueColor()
-            case 44308: // Ar8L
+            case 21509: // Ar8L 44308
                 self.myImg.image = UIImage(named: "pic2")
                 self.view.backgroundColor = UIColor.brownColor()
+                playVideo()
                 //playSound()
-            case 31775: // k77n
+            case 64204: // k77n 31775
                 self.myImg.image = UIImage(named: "pic3")!
                 self.view.backgroundColor = UIColor.greenColor()
                 playSound()
-            case 7022: // CTSx
+            case 16571: // CTSx 7022
                 self.myImg.image = UIImage(named: "pic4")!
                 self.view.backgroundColor = UIColor.greenColor()
             case 64719: // 458g

@@ -1,20 +1,22 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "67DDA4ED9BEA2D86F0EBE4ACCD9CFFC9CFE7375B",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D73FCA0A96848ED82D4E8BFAF42C33D163EB3FAC",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B" : 9223372036854775807,
     "67DDA4ED9BEA2D86F0EBE4ACCD9CFFC9CFE7375B" : 9223372036854775807,
-    "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B" : 9223372036854775807
+    "D73FCA0A96848ED82D4E8BFAF42C33D163EB3FAC" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E385C13C-77B3-4C81-A083-ED0730D4A615",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "67DDA4ED9BEA2D86F0EBE4ACCD9CFFC9CFE7375B" : "kontakt-ios-sdk-workshop\/",
-    "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B" : "kontakt-ios-sdk-workshop\/SDK\/"
+    "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B" : "SDK\/",
+    "67DDA4ED9BEA2D86F0EBE4ACCD9CFFC9CFE7375B" : "",
+    "D73FCA0A96848ED82D4E8BFAF42C33D163EB3FAC" : "Part%201\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SDK Workshop",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Part 1\/SDK Workshop.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SDK Workshop.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kontaktio\/kontakt-ios-sdk.git",
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kontaktio\/kontakt-ios-sdk-workshop.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67DDA4ED9BEA2D86F0EBE4ACCD9CFFC9CFE7375B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/samirhassen\/Mall-Beacons.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D73FCA0A96848ED82D4E8BFAF42C33D163EB3FAC"
     }
   ]
 }

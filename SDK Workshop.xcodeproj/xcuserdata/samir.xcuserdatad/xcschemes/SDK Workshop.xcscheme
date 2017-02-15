@@ -17,7 +17,7 @@
                BlueprintIdentifier = "0D166CD01C71F457004A99E0"
                BuildableName = "SDK Workshop.app"
                BlueprintName = "SDK Workshop"
-               ReferencedContainer = "container:&apos;a&#x308;.xcodeproj">
+               ReferencedContainer = "container:SDK Workshop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "0D166CD01C71F457004A99E0"
             BuildableName = "SDK Workshop.app"
             BlueprintName = "SDK Workshop"
-            ReferencedContainer = "container:&apos;a&#x308;.xcodeproj">
+            ReferencedContainer = "container:SDK Workshop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

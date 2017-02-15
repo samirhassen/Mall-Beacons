@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0D166CDA1C71F457004A99E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D166CD81C71F457004A99E0 /* Main.storyboard */; };
-		0D166CDC1C71F457004A99E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D166CDB1C71F457004A99E0 /* Assets.xcassets */; };
 		0D166CDF1C71F457004A99E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D166CDD1C71F457004A99E0 /* LaunchScreen.storyboard */; };
 		0D792E6A1D0B8470001A829E /* KontaktSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D792E691D0B8470001A829E /* KontaktSDK.framework */; };
 		0D792E6C1D0B8475001A829E /* KontaktSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D792E691D0B8470001A829E /* KontaktSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -23,6 +22,8 @@
 		37F215EA1E4DACEC008356F2 /* pic6.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F215E41E4DACEC008356F2 /* pic6.png */; };
 		37F215ED1E4DACF8008356F2 /* tin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37F215EB1E4DACF8008356F2 /* tin.mp3 */; };
 		37F215EE1E4DACF8008356F2 /* nature1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37F215EC1E4DACF8008356F2 /* nature1.mp4 */; };
+		37F361D81E4F5194006895D1 /* wit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37F361D71E4F5194006895D1 /* wit.jpg */; };
+		37FEDD8D1E50666F00FEAB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FEDD8C1E50666F00FEAB26 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,11 +41,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D166CD11C71F457004A99E0 /* SDK Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK Workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D166CD41C71F457004A99E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D166CD61C71F457004A99E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D166CD91C71F457004A99E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D166CDB1C71F457004A99E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D166CDE1C71F457004A99E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D166CE01C71F457004A99E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D792E691D0B8470001A829E /* KontaktSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KontaktSDK.framework; path = ../../SDK/KontaktSDK/iOS/KontaktSDK.framework; sourceTree = "<group>"; };
@@ -57,6 +56,9 @@
 		37F215E41E4DACEC008356F2 /* pic6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic6.png; path = "../../Beacons IMG/pic6.png"; sourceTree = "<group>"; };
 		37F215EB1E4DACF8008356F2 /* tin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tin.mp3; path = ../../tin.mp3; sourceTree = "<group>"; };
 		37F215EC1E4DACF8008356F2 /* nature1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = nature1.mp4; path = ../../nature1.mp4; sourceTree = "<group>"; };
+		37F361D71E4F5194006895D1 /* wit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wit.jpg; path = ../../../../wit.jpg; sourceTree = "<group>"; };
+		37FEDD8B1E50663C00FEAB26 /* SDK Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK Workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FEDD8C1E50666F00FEAB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,6 @@
 			children = (
 				0D166CD31C71F457004A99E0 /* SDK Workshop */,
 				0D166CE61C71F6DC004A99E0 /* Frameworks */,
-				0D166CD21C71F457004A99E0 /* Products */,
 				37F215DF1E4DACEC008356F2 /* pic1.png */,
 				37F215E01E4DACEC008356F2 /* pic2.png */,
 				37F215E11E4DACEC008356F2 /* pic3.png */,
@@ -85,15 +86,9 @@
 				37F215E41E4DACEC008356F2 /* pic6.png */,
 				37F215EB1E4DACF8008356F2 /* tin.mp3 */,
 				37F215EC1E4DACF8008356F2 /* nature1.mp4 */,
+				37F361D71E4F5194006895D1 /* wit.jpg */,
+				37FEDD8B1E50663C00FEAB26 /* SDK Workshop.app */,
 			);
-			sourceTree = "<group>";
-		};
-		0D166CD21C71F457004A99E0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0D166CD11C71F457004A99E0 /* SDK Workshop.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		0D166CD31C71F457004A99E0 /* SDK Workshop */ = {
@@ -103,9 +98,9 @@
 				0D166CD41C71F457004A99E0 /* AppDelegate.swift */,
 				0D166CD61C71F457004A99E0 /* ViewController.swift */,
 				0D166CD81C71F457004A99E0 /* Main.storyboard */,
-				0D166CDB1C71F457004A99E0 /* Assets.xcassets */,
 				0D166CDD1C71F457004A99E0 /* LaunchScreen.storyboard */,
 				0D166CE01C71F457004A99E0 /* Info.plist */,
+				37FEDD8C1E50666F00FEAB26 /* Assets.xcassets */,
 			);
 			path = "SDK Workshop";
 			sourceTree = "<group>";
@@ -138,7 +133,7 @@
 			);
 			name = "SDK Workshop";
 			productName = "SDK Workshop";
-			productReference = 0D166CD11C71F457004A99E0 /* SDK Workshop.app */;
+			productReference = 37FEDD8B1E50663C00FEAB26 /* SDK Workshop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +170,7 @@
 				Base,
 			);
 			mainGroup = 0D166CC81C71F457004A99E0;
-			productRefGroup = 0D166CD21C71F457004A99E0 /* Products */;
+			productRefGroup = 0D166CC81C71F457004A99E0;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -192,12 +187,13 @@
 				37F215E81E4DACEC008356F2 /* pic4.png in Resources */,
 				37F215EE1E4DACF8008356F2 /* nature1.mp4 in Resources */,
 				37F215ED1E4DACF8008356F2 /* tin.mp3 in Resources */,
+				37FEDD8D1E50666F00FEAB26 /* Assets.xcassets in Resources */,
 				37F215E61E4DACEC008356F2 /* pic2.png in Resources */,
 				37F215E71E4DACEC008356F2 /* pic3.png in Resources */,
 				37F215EA1E4DACEC008356F2 /* pic6.png in Resources */,
 				37F215DE1E4D77AF008356F2 /* Info.plist in Resources */,
 				0D166CDF1C71F457004A99E0 /* LaunchScreen.storyboard in Resources */,
-				0D166CDC1C71F457004A99E0 /* Assets.xcassets in Resources */,
+				37F361D81E4F5194006895D1 /* wit.jpg in Resources */,
 				37F215E51E4DACEC008356F2 /* pic1.png in Resources */,
 				0D166CDA1C71F457004A99E0 /* Main.storyboard in Resources */,
 				37F215E91E4DACEC008356F2 /* pic5.png in Resources */,
